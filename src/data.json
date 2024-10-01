@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Chicken and Pasta",
+    "tag": "Main Course",
+    "description": "Chicken and pasta in a creamy sauce",
+    "ingredients": ["Chicken", "Pasta", "Cream", "Salt", "Pepper"],
+    "id": 1
+  },
+  {
+    "name": "Beef Stroganoff",
+    "tag": "Main Course",
+    "description": "Beef in a creamy mushroom sauce",
+    "ingredients": ["Beef", "Mushrooms", "Onions", "Sour Cream", "Garlic"],
+    "id": 2
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "tag": "Main Course",
+    "description": "Mixed vegetables stir-fried with soy sauce",
+    "ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell Peppers",
+      "Soy Sauce",
+      "Garlic"
+    ],
+    "id": 3
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "tag": "Main Course",
+    "description": "Spaghetti with a rich meat sauce",
+    "ingredients": [
+      "Spaghetti",
+      "Ground Beef",
+      "Tomato Sauce",
+      "Onions",
+      "Garlic"
+    ],
+    "id": 4
+  },
+  {
+    "name": "Caesar Salad",
+    "tag": "Salad",
+    "description": "Crisp romaine lettuce with Caesar dressing",
+    "ingredients": [
+      "Romaine Lettuce",
+      "Caesar Dressing",
+      "Croutons",
+      "Parmesan Cheese",
+      "Lemon Juice"
+    ],
+    "id": 5
+  },
+  {
+    "name": "Tacos",
+    "tag": "Main Course",
+    "description": "Soft tortillas filled with seasoned meat and toppings",
+    "ingredients": [
+      "Tortillas",
+      "Ground Beef",
+      "Lettuce",
+      "Tomatoes",
+      "Cheese"
+    ],
+    "id": 6
+  },
+  {
+    "name": "Chocolate Cake",
+    "tag": "Dessert",
+    "description": "Rich and moist chocolate cake",
+    "ingredients": ["Flour", "Cocoa Powder", "Sugar", "Eggs", "Butter"],
+    "id": 7
+  },
+  {
+    "name": "Bruschetta",
+    "tag": "Appetizer",
+    "description": "Grilled bread topped with diced tomatoes and basil",
+    "ingredients": ["Bread", "Tomatoes", "Basil", "Olive Oil", "Garlic"],
+    "id": 8
+  }
+]
