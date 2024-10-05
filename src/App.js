@@ -1,18 +1,7 @@
 import './App.css';
-import React, { useState } from 'react';
-import data from './data.json';
+import React from 'react';
 
 function App() {
-  const [isCollapsed, setIsCollapsed] = useState(null);
-
-  const toggleCollapse = (num) => {
-    if (isCollapsed === num) {
-      setIsCollapsed(null);
-      return;
-    }
-
-    setIsCollapsed(num);
-  };
 
   return (
     <>
