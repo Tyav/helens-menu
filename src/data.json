@@ -1,15 +1,15 @@
 [
   {
-    "name": "Chicken and Pasta",
+    "name": "Grilled turkey with Honey sauce, Fried plantain and dirty rice",
     "tag": "Main Course",
-    "description": "Chicken and pasta in a creamy sauce",
+    "description": "Delight in our succulent grilled turkey, expertly marinated and char-grilled to achieve a perfect smoky flavor, then drizzled with a sweet and tangy honey sauce. Accompanied by crispy fried plantains that provide a delightful crunch, this dish is further enhanced by our signature dirty rice, a flavorful blend of spices, vegetables, and herbs. Each element harmonizes beautifully, creating a satisfying and memorable main course.",
     "ingredients": ["Chicken", "Pasta", "Cream", "Salt", "Pepper"],
     "id": 1
   },
   {
-    "name": "Beef Stroganoff",
-    "tag": "Main Course",
-    "description": "Beef in a creamy mushroom sauce",
+    "name": "Shredded Beef with Garri Balls Soup",
+    "tag": "Appetizer",
+    "description": "Begin your dining experience with a hearty bowl of shredded beef soup, featuring tender, slow-cooked beef that’s rich in flavor. This comforting dish is paired with delightful garri balls, adding a satisfying texture that complements the warm, savory broth. A symphony of spices elevates each spoonful, making it a perfect start to your meal.",
     "ingredients": ["Beef", "Mushrooms", "Onions", "Sour Cream", "Garlic"],
     "id": 2
   },
