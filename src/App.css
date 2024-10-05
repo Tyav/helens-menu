@@ -27,11 +27,20 @@
 }
 
 .title {
-  font-size: calc(14px + 2vmin);
+  /* font-size: calc(14px + 2vmin); */
 }
 
 .App-link {
   color: #61dafb;
+}
+.title {
+  font-size: 1.5rem;
+  margin: 0;
+
+}
+.title-tag {
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 
 .recipe-container {
@@ -41,57 +50,59 @@
   align-items: center;
   margin: 10px 0px;
   gap: 15px;
-  .recipe {
+
+}
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+
+
+  /* div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-
-    .title {
-      font-size: 1.5rem;
-      margin: 0;
-      .title-tag {
-        font-size: 0.7rem;
-        font-weight: bold;
-      }
+    .label {
+      font-weight: bold;
     }
+  } */
 
-    /* div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      .label {
-        font-weight: bold;
-      }
-    } */
-    p, ul {
-      margin: 0;
-    }
-    .recipe-ingredients {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      .desc {
-        font-weight: normal;
-        font-size: 0.9rem;
-      }
-      p {
-        font-weight: bold;
-      }
+}
+p, ul {
+  margin: 0;
+}
+.recipe-ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 
-      .ingredient-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .ingredients {
-          font-size:medium;
-        }
-      }
-    }
-  }
+}
+.ingredients {
+  font-size:medium;
+}
+.title-tag {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.desc {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+p {
+  font-weight: bold;
+}
+
+.ingredient-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .recipe-ingredients {
@@ -103,6 +114,10 @@
 .recipe-ingredients.expanded {
   max-height: 500px; /* Adjust this value based on your content */
   transition: max-height 1s ease-in;
+}
+
+.small-text {
+  font-size: 0.9rem;
 }
 
 @keyframes App-logo-spin {
